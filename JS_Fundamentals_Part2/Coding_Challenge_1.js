@@ -20,5 +20,5 @@ console.log(avgKoalas);
 function checkWinner(avgDolphin, avgKoala){
     return avgDolphin >= avgKoala ? `Dolphins win (${avgDolphin} vs. ${avgKoala})`:`Koalas win (${avgKoala} vs. ${avgDolphin})`;
 }
-
+//4. Use the 'checkWinner' function to determine the winner for both Data 1 and Data 2
 console.log(checkWinner(avgDolphins,avgKoalas)); 
